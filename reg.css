@@ -1,0 +1,59 @@
+#btn1 button{
+    background-color:  rgb(5, 5, 139);
+    color: #fff;
+    width: 150px;
+    height: 43px;
+    
+
+}
+
+.details{
+    padding: 15px;
+width: 430px;
+}
+
+#button{
+    width: 400px;
+    margin-left: 15px;
+}
+
+.main{
+    background-color: #fff;
+    box-shadow: 80px 20px 10px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+   
+    width: 500px;
+    margin-left: 37%;
+    margin-top: 150px;
+    padding: 30px;
+}
+
+.main1{
+    display: flex;
+
+}
+.main button{
+    background-color:  rgb(5, 5, 139);
+    color: #fff;
+    width: 410px;
+    height: 43px;
+    margin-left: 10px;
+    
+}
+
+.sub1{
+   padding: 10px;
+}
+
+.sub1 button{
+    width: 200px;
+}
+
+.sub1 input{
+    width: 350px;
+}
+
+.sub{
+    margin-top: 200px;
+    margin-left: 100px;
+}

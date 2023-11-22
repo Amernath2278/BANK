@@ -1,0 +1,78 @@
+.inner{
+    position: absolute;
+    margin-top: -65%;
+    margin-left: 50px;
+}
+
+#card{
+    position: absolute;
+    margin-top: -54%;
+    margin-left: 14%;
+    
+}
+
+#card1{
+    background-color: #fff;
+    height: 250px;
+    width: 450px;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.1), 0 2px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 40px 60px 10px;
+}
+
+#card2{
+    background-color: #fff;
+    height: 250px;
+    width: 450px;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.1), 0 2px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 40px 60px 10px;
+    margin-left: 50px;
+}
+
+#card3{
+    background-color: #fff;
+    height: 250px;
+    width: 450px;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.1), 0 2px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 40px 60px 10px;
+    margin-left: 50px;
+}
+
+#dw{
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 20%;
+}
+
+
+#deposit{
+
+    background-color:transparent;
+    height: 280px;
+    width: 450px;
+    margin-left: 50px;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.1), 0 2px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 20px 80px 50px;
+
+}
+#deposit button{
+    background-color:  rgb(5, 5, 139);
+    color: #fff;
+    width: 425px;
+    height: 40px;
+}
+#withdraw{
+
+    background-color:transparent;
+    height: 280px;
+    width: 450px;
+    margin-left: 150px;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.1), 0 2px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 20px 80px 50px;
+
+}
+#withdraw button{
+    background-color:  rgb(5, 5, 139);
+    color: #fff;
+    width: 425px;
+    height: 40px;
+}

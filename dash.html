@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Dashboard</title>
+
+    <!-- //////////////////LINK/////////////////////// -->
+    <!-- css -->
+    <link rel="stylesheet" href="./dash.css">
+
+    <!-- bootstrap link -->
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
+  
+     <!-- font awsome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <!-- //////////////////LINK/////////////////////// -->
+  
+
+</head>
+<body>
+    
+    <section>
+     
+        
+<img src="https://i.pinimg.com/736x/5b/3d/7d/5b3d7dd20748a0793dd96b95f84b4b86.jpg" width="100%" height="100%">
+
+
+<header class="inner">
+    <div style="display: flex;">
+
+        <div >
+            <h1 style="font-family: Arial, Helvetica, sans-serif; font-size: xxx-large; font-weight: bolder; color: rgb(13, 13, 150); ">Your Dashboard</h1>
+        </div>
+
+        <!-- LOGOUT BUTTON -->
+        <div style="margin-left: 1300px;">
+            <button class="btn " style="width: 120px; height: 44px; background-color: rgb(212, 11, 11); color: #fff;" onclick="logout()">Logout</button>
+        </div>
+
+    </div>
+</header>
+
+<!-- card -->
+<!-- main -->
+<div class="row" id="card">
+
+    <div class="col-4 p-5 " id="card1">
+
+        <h3 style="font-family: Arial, Helvetica, sans-serif; color:rgb(5, 5, 139) ;">Total Deposit <span style="margin-left: 50px;  "><i class="fa-solid fa-hand-holding-dollar fa-2xl" style="color: #000000;"></i></span></h3>
+<br><br>
+        <div id="depo">
+            <i class="fa-solid fa-indian-rupee-sign fa-2xl" style="color: #000000;"> 0</i>
+        </div>
+    </div>
+
+    <div class="col-4 p-5 " id="card2">
+
+        <h3 style="font-family: Arial, Helvetica, sans-serif; color:rgb(5, 5, 139) ;">Total Withdraw  <span style="margin-left: 50px;  "><i class="fa-solid fa-money-bill-transfer fa-2xl" style="color: #000000;"></i></span></h3>
+        <br><br>
+        <div id="withdr">
+            <i class="fa-solid fa-indian-rupee-sign fa-2xl" style="color: #000000;"> 0</i>
+        </div>
+    </div>
+
+    <div class="col-4 p-5 " id="card3">
+
+        <h3 style="font-family: Arial, Helvetica, sans-serif; color:rgb(5, 5, 139) ;">Total Balance  <span style="margin-left: 50px;  "><i class="fa-solid fa-sack-dollar fa-2xl" style="color: #000000;"></i></span></h3>
+        <br><br>
+        <div id="bal">
+            <i class="fa-solid fa-indian-rupee-sign fa-2xl" style="color: #000000;"> 0</i>
+        </div>
+    </div>
+
+</div>
+
+<!-- DEPOSIT/WITHDRAWAL -->
+<div class="row" id="dw">
+
+    <!-- deposit -->
+    <div class="col-4  " id="deposit">
+
+        <h3 class="p-3 text-center" style="font-family: Arial, Helvetica, sans-serif; color:rgb(5, 5, 117) ;">Deposit</h3>
+        <br>
+
+        <input type="text" class="form-control" placeholder="Deposit Amount" id="depamnt">
+        <br>
+        <input type="text" class="form-control" placeholder="Password" id="deppass">
+        <br>
+        <button class="btn me-4" onclick="depositBtn()">Deposit</button>
+
+
+    </div>
+
+    <!-- withdraw -->
+    <div class="col-4  " id="withdraw">
+
+        <h3 class="p-3 text-center" style="font-family: Arial, Helvetica, sans-serif; color:rgb(5, 5, 117) ;">Withdraw</h3>
+        <br>
+
+        <input type="text" class="form-control" placeholder="Withdrawal Amount" id="withamnt">
+        <br>
+        <input type="text" class="form-control" placeholder="Password" id="withpass">
+        <br>
+        <button class="btn me-4" onclick="withdrawBtn()">Withdraw</button>
+
+    </div>
+
+</div>
+</section>
+
+</body>
+<script src="./dash.js"></script>
+</html>

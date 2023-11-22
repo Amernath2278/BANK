@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+
+    <!-- //////////////////LINK/////////////////////// -->
+    <!-- css -->
+<link rel="stylesheet" href="./sign.css">
+
+  <!-- bootstrap link -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+   <!-- font awsome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- //////////////////LINK/////////////////////// -->
+
+</head>
+<body>
+
+    <header>
+        <div style="display: flex; padding: 10px;">
+
+            <div><img src="https://images.squarespace-cdn.com/content/v1/5d008986664bb500016c6e3f/1606288424247-ENEP2RAD28FYNZYI5FE8/icons_bank-05.png" height="100px"></div>
+
+        <div style="margin-top: 25px;">
+        <h1 style="color: rgb(10, 10, 136); font-weight: bold;">Indian Bank</h1>
+    </div>
+
+    <!-- REG/SIGN IN  BUTTON -->
+    <div style="margin-left: 1150px; display: flex; " id="btn1" class="p-4">
+        <button class="btn me-3" onclick="regbtn()">Register</button>
+        <div style="margin-left: 40px;">
+       <a href="./index.html"> <i class="fa-solid fa-house fa-2xl "  style="color: #002b75; margin-top: 20px; "></i></a>
+
+        </div>
+    </div>
+</div>
+    </header>
+    <hr style="color:rgb(5, 5, 139) ;">
+
+
+<!-- card -->
+   <div class="main1 col-5 " style="margin-left: 370px;">
+
+  
+
+        <div class="main" >
+
+            <h1 class="text-center" style="color:rgb(5, 5, 139) ;">Sign In</h1>
+
+         <div class="details">
+            <input type="text" class="form-control" placeholder="Account Number" id="logacc" >
+        </div>
+
+        <div class="details">
+            <input type="password" class="form-control" placeholder="Password" id="logpsw" >
+        </div>
+
+        <br>
+        <button class="btn " onclick="login()" >Sign In</button>
+
+    </div> 
+   
+</body>
+<script src="./sign.js"></script>
+</html>
+    

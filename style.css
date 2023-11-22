@@ -1,0 +1,52 @@
+#ui{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+#ui1{
+    margin-top: 100px;
+}
+#ui1 h1{
+    color: rgb(5, 5, 139);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size:60px;
+}
+
+#ui1 p{
+    font-size:20px;
+    font-weight: 600;
+    color: rgb(126, 126, 126);
+}
+
+#ui1 button{
+    background-color:  rgb(5, 5, 139);
+    color: #fff;
+    width: 230px;
+    height: 40px;
+}
+
+#btn1{
+    margin-top: 34px;
+}
+
+#btn1 button{
+    background-color:  rgb(5, 5, 139);
+    color: #fff;
+    width: 150px;
+    height: 43px;
+    
+
+}
+
+#btn1 button:hover{
+   
+        transition: all 0.8s;
+        transform: scale(1.2);
+    
+}
+
+.btn:hover{
+    transition: all 0.8s;
+    transform: scale(1.2);
+}
+
